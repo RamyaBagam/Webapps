@@ -1,0 +1,44 @@
+mat-card {
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+.weather-info {
+  width: 100%;
+  float: left;
+  > mat-card-content {
+    width: 14%;
+    position: relative;
+    float: left;
+    font-weight: bold;
+    font-size:18px;
+    margin-left:-4%;
+  }
+}
+.app-css-style{
+
+  border: 2px solid black;
+  margin-top: -22px;
+  padding: 2% 4% 2% 5%;
+  border-right:2px solid black;
+}
+
+.day-date-styles{
+
+  font-size:18px;
+  color:black;
+  text-align:center;
+}
+
+.block-button{
+
+  display: block;
+  width: 20%;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius:5px;
+}
